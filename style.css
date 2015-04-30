@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+form {
+  border: 1px solid black;
+  width: 60%;
+
+}
+
+.email, .password {
+  height: 40px;
+  width: 22%;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 4px;
+  text-indent: 10px;
+}
+
+.email {
+  margin: 20px 20px;
+}
+
+.password {
+  margin: 20px 10px 10px 0;
+}
+
+.checkbox {
+  margin: 0;
+}
+
+label {
+  font-size: 16px;
+}
+
+button {
+  width: 12%;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  color: white
+}
+
+.signin {
+  margin: 12px;
+  background: rgba(52,143,226,2)
+}
+
+.regist {
+  background: rgba(182,194,201,1);
+}
